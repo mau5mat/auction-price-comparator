@@ -1,0 +1,6 @@
+framework module Pods_AuctioneerCalculator {
+  umbrella header "Pods-AuctioneerCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

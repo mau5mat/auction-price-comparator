@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		613FB72C72CCECB0C5674AD0 /* Pods_AuctioneerCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C72DC48AB5941CF48352A8 /* Pods_AuctioneerCalculator.framework */; };
+		9F86B93D214E95EA00C8E7E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B93C214E95EA00C8E7E0 /* AppDelegate.swift */; };
+		9F86B93F214E95EA00C8E7E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B93E214E95EA00C8E7E0 /* ViewController.swift */; };
+		9F86B942214E95EA00C8E7E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F86B940214E95EA00C8E7E0 /* Main.storyboard */; };
+		9F86B944214E95EE00C8E7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F86B943214E95EE00C8E7E0 /* Assets.xcassets */; };
+		9F86B947214E95EE00C8E7E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F86B945214E95EE00C8E7E0 /* LaunchScreen.storyboard */; };
+		9F86B950214E965200C8E7E0 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B94F214E965200C8E7E0 /* Recipes.swift */; };
+		9F86B952214E978700C8E7E0 /* Auction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B951214E978700C8E7E0 /* Auction.swift */; };
+		9F86B956214E99C500C8E7E0 /* WebRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B955214E99C500C8E7E0 /* WebRequestService.swift */; };
+		9F86B959214E9E0400C8E7E0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B958214E9E0400C8E7E0 /* Item.swift */; };
+		9F86B95C214EC6C000C8E7E0 /* CurrencyCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B95B214EC6C000C8E7E0 /* CurrencyCalculator.swift */; };
+		9F86B95E2151455A00C8E7E0 /* AuctionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B95D2151455A00C8E7E0 /* AuctionBuilder.swift */; };
+		9F86B9622153E3AE00C8E7E0 /* AuctionHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B9612153E3AE00C8E7E0 /* AuctionHouse.swift */; };
+		9F86B9652153E48800C8E7E0 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B9642153E48800C8E7E0 /* Price.swift */; };
+		9F86B9672159322900C8E7E0 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B9662159322900C8E7E0 /* FormViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		196ED6B07DC16A5A01025914 /* Pods-AuctioneerCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctioneerCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuctioneerCalculator/Pods-AuctioneerCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		35C72DC48AB5941CF48352A8 /* Pods_AuctioneerCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuctioneerCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43426F33C36562383071FC43 /* Pods-AuctioneerCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctioneerCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuctioneerCalculator/Pods-AuctioneerCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		9F86B939214E95EA00C8E7E0 /* AuctioneerCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuctioneerCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F86B93C214E95EA00C8E7E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F86B93E214E95EA00C8E7E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F86B941214E95EA00C8E7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F86B943214E95EE00C8E7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F86B946214E95EE00C8E7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F86B948214E95EE00C8E7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F86B94F214E965200C8E7E0 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		9F86B951214E978700C8E7E0 /* Auction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auction.swift; sourceTree = "<group>"; };
+		9F86B955214E99C500C8E7E0 /* WebRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRequestService.swift; sourceTree = "<group>"; };
+		9F86B958214E9E0400C8E7E0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9F86B95B214EC6C000C8E7E0 /* CurrencyCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCalculator.swift; sourceTree = "<group>"; };
+		9F86B95D2151455A00C8E7E0 /* AuctionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionBuilder.swift; sourceTree = "<group>"; };
+		9F86B9612153E3AE00C8E7E0 /* AuctionHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionHouse.swift; sourceTree = "<group>"; };
+		9F86B9642153E48800C8E7E0 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		9F86B9662159322900C8E7E0 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F86B936214E95EA00C8E7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613FB72C72CCECB0C5674AD0 /* Pods_AuctioneerCalculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29C82A4D322D1F782CD4B976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35C72DC48AB5941CF48352A8 /* Pods_AuctioneerCalculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7792DAD03E0A009E24D7FA30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				196ED6B07DC16A5A01025914 /* Pods-AuctioneerCalculator.debug.xcconfig */,
+				43426F33C36562383071FC43 /* Pods-AuctioneerCalculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F86B930214E95EA00C8E7E0 = {
+			isa = PBXGroup;
+			children = (
+				9F86B93B214E95EA00C8E7E0 /* AuctioneerCalculator */,
+				9F86B93A214E95EA00C8E7E0 /* Products */,
+				7792DAD03E0A009E24D7FA30 /* Pods */,
+				29C82A4D322D1F782CD4B976 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F86B93A214E95EA00C8E7E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F86B939214E95EA00C8E7E0 /* AuctioneerCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F86B93B214E95EA00C8E7E0 /* AuctioneerCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				9F86B9632153E47A00C8E7E0 /* Price */,
+				9F86B9602153E39300C8E7E0 /* AuctionHouse */,
+				9F86B95F2151456000C8E7E0 /* Builder */,
+				9F86B95A214EC2CC00C8E7E0 /* Calculators */,
+				9F86B957214E9DEA00C8E7E0 /* ItemValues */,
+				9F86B954214E99AF00C8E7E0 /* WebRequestService */,
+				9F86B953214E978F00C8E7E0 /* Auction */,
+				9F86B94E214E963E00C8E7E0 /* Recipes */,
+				9F86B93C214E95EA00C8E7E0 /* AppDelegate.swift */,
+				9F86B93E214E95EA00C8E7E0 /* ViewController.swift */,
+				9F86B9662159322900C8E7E0 /* FormViewController.swift */,
+				9F86B940214E95EA00C8E7E0 /* Main.storyboard */,
+				9F86B943214E95EE00C8E7E0 /* Assets.xcassets */,
+				9F86B945214E95EE00C8E7E0 /* LaunchScreen.storyboard */,
+				9F86B948214E95EE00C8E7E0 /* Info.plist */,
+			);
+			path = AuctioneerCalculator;
+			sourceTree = "<group>";
+		};
+		9F86B94E214E963E00C8E7E0 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				9F86B94F214E965200C8E7E0 /* Recipes.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		9F86B953214E978F00C8E7E0 /* Auction */ = {
+			isa = PBXGroup;
+			children = (
+				9F86B951214E978700C8E7E0 /* Auction.swift */,
+			);
+			path = Auction;
+			sourceTree = "<group>";
+		};
+		9F86B954214E99AF00C8E7E0 /* WebRequestService */ = {
+			isa = PBXGroup;
+			children = (
+				9F86B955214E99C500C8E7E0 /* WebRequestService.swift */,
+			);
+			path = WebRequestService;
+			sourceTree = "<group>";
+		};
+		9F86B957214E9DEA00C8E7E0 /* ItemValues */ = {
+			isa = PBXGroup;
+			children = (
+				9F86B958214E9E0400C8E7E0 /* Item.swift */,
+			);
+			path = ItemValues;
+			sourceTree = "<group>";
+		};
+		9F86B95A214EC2CC00C8E7E0 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				9F86B95B214EC6C000C8E7E0 /* CurrencyCalculator.swift */,
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+		9F86B95F2151456000C8E7E0 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				9F86B95D2151455A00C8E7E0 /* AuctionBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		9F86B9602153E39300C8E7E0 /* AuctionHouse */ = {
+			isa = PBXGroup;
+			children = (
+				9F86B9612153E3AE00C8E7E0 /* AuctionHouse.swift */,
+			);
+			path = AuctionHouse;
+			sourceTree = "<group>";
+		};
+		9F86B9632153E47A00C8E7E0 /* Price */ = {
+			isa = PBXGroup;
+			children = (
+				9F86B9642153E48800C8E7E0 /* Price.swift */,
+			);
+			path = Price;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F86B938214E95EA00C8E7E0 /* AuctioneerCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F86B94B214E95EE00C8E7E0 /* Build configuration list for PBXNativeTarget "AuctioneerCalculator" */;
+			buildPhases = (
+				8A0D097C10E35FB2E2BBAB8B /* [CP] Check Pods Manifest.lock */,
+				9F86B935214E95EA00C8E7E0 /* Sources */,
+				9F86B936214E95EA00C8E7E0 /* Frameworks */,
+				9F86B937214E95EA00C8E7E0 /* Resources */,
+				DA400E52CB2672E3E80DD4EE /* [CP] Embed Pods Frameworks */,
+				A801343CC7D75066D2F75AAE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuctioneerCalculator;
+			productName = AuctioneerCalculator;
+			productReference = 9F86B939214E95EA00C8E7E0 /* AuctioneerCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F86B931214E95EA00C8E7E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Matt Roberts";
+				TargetAttributes = {
+					9F86B938214E95EA00C8E7E0 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 9F86B934214E95EA00C8E7E0 /* Build configuration list for PBXProject "AuctioneerCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F86B930214E95EA00C8E7E0;
+			productRefGroup = 9F86B93A214E95EA00C8E7E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F86B938214E95EA00C8E7E0 /* AuctioneerCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F86B937214E95EA00C8E7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F86B947214E95EE00C8E7E0 /* LaunchScreen.storyboard in Resources */,
+				9F86B944214E95EE00C8E7E0 /* Assets.xcassets in Resources */,
+				9F86B942214E95EA00C8E7E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A0D097C10E35FB2E2BBAB8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuctioneerCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A801343CC7D75066D2F75AAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AuctioneerCalculator/Pods-AuctioneerCalculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA400E52CB2672E3E80DD4EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AuctioneerCalculator/Pods-AuctioneerCalculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AuctioneerCalculator/Pods-AuctioneerCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F86B935214E95EA00C8E7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F86B950214E965200C8E7E0 /* Recipes.swift in Sources */,
+				9F86B9672159322900C8E7E0 /* FormViewController.swift in Sources */,
+				9F86B95E2151455A00C8E7E0 /* AuctionBuilder.swift in Sources */,
+				9F86B93F214E95EA00C8E7E0 /* ViewController.swift in Sources */,
+				9F86B9652153E48800C8E7E0 /* Price.swift in Sources */,
+				9F86B95C214EC6C000C8E7E0 /* CurrencyCalculator.swift in Sources */,
+				9F86B9622153E3AE00C8E7E0 /* AuctionHouse.swift in Sources */,
+				9F86B959214E9E0400C8E7E0 /* Item.swift in Sources */,
+				9F86B93D214E95EA00C8E7E0 /* AppDelegate.swift in Sources */,
+				9F86B952214E978700C8E7E0 /* Auction.swift in Sources */,
+				9F86B956214E99C500C8E7E0 /* WebRequestService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F86B940214E95EA00C8E7E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F86B941214E95EA00C8E7E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F86B945214E95EE00C8E7E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F86B946214E95EE00C8E7E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F86B949214E95EE00C8E7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F86B94A214E95EE00C8E7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F86B94C214E95EE00C8E7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196ED6B07DC16A5A01025914 /* Pods-AuctioneerCalculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AuctioneerCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mau5mat.AuctioneerCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F86B94D214E95EE00C8E7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43426F33C36562383071FC43 /* Pods-AuctioneerCalculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AuctioneerCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mau5mat.AuctioneerCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F86B934214E95EA00C8E7E0 /* Build configuration list for PBXProject "AuctioneerCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F86B949214E95EE00C8E7E0 /* Debug */,
+				9F86B94A214E95EE00C8E7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F86B94B214E95EE00C8E7E0 /* Build configuration list for PBXNativeTarget "AuctioneerCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F86B94C214E95EE00C8E7E0 /* Debug */,
+				9F86B94D214E95EE00C8E7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F86B931214E95EA00C8E7E0 /* Project object */;
+}
